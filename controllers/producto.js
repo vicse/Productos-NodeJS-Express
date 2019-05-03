@@ -1,4 +1,5 @@
 let model = require('../models/producto');
+let modelCat = require('../models/categoria');
 
 module.exports = {
     // show: function(req, res) {

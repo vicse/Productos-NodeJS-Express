@@ -9,6 +9,6 @@ let categoria_schema = new Schema({
     }
 });
 
-model = mongoose.model('categoria', categoria_schema);
+model = mongoose.model('categoria', categoria_schema, 'categoria');
 
 module.exports = model;

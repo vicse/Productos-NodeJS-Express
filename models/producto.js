@@ -13,7 +13,7 @@ let producto_schema = new Schema({
         required: true
     },
     categoria_id: {
-        type: Schema.ObjectId,
+        type: Schema.Types.ObjectId,
         ref: 'categoria',
         required: true
     }
